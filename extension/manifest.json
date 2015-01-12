@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quora add-on",
+  "description": "This extension demonstrates extended functionality for quora profile page and topic pages.",
+  "version": "2.0",
+  "author": "Arpit Jain",
+  "homepage_url": "https://github.com/arpitjain099",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+"permissions": [ "tabs",   "activeTab","http://*/" ]
+}
