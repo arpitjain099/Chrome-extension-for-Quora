@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="jquery-1.11.1.min.js"></script> 
+    <script src="popup.js"></script>
+   
+    
+    
+  </head>
+  <body>
+    
+    <div id="myDiv"></div>
+    
+    <button  id="getbestquestionbutton">Get best questions for topic!</button>
+    <br><button  id="getopenquestionbutton">Get open questions for topic!</button>
+    <br><button  id="getrelatedtopicsbutton">Get top stories for topic!</button>
+    <br><button  id="gettopstoriesbutton">Get related topics for topic!</button>
+    <br><button  id="dumpdataforuser">Have a look at recent answers!</button>
+    <div id="output"></div>
+    
+
+  </body>
+</html>
+
